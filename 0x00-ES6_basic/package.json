@@ -1,0 +1,19 @@
+{
+  "name": "0x00-es6_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0-constants.js",
+  "scripts": {
+     "dev": "babel 0-main.js --out-file compiled.js && node compiled.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7"
+    "presets": ["@babel/preset-env"]
+  }
+}
